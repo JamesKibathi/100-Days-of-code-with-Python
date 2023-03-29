@@ -39,12 +39,19 @@ calculated = calculate_days_to_hours(input_to_integer)
 print(calculated)
 
 # Conditionals
-my_num=input("Please enter a number\n")
-my_num_int=int(my_num)
+
 def numbers_checker(num):
     if num>0:
         return f"The square of the number is :{num*num}"
+    elif num == 0:
+        return "You entered a 0, please enter a positive number"
     else:
         return "You entered an invalid number"
-num_squared = numbers_checker(my_num_int)
-print(num_squared)
+
+my_num=input("Please enter a number\n")
+if my_num.isdigit():
+    my_num_int=int(my_num)
+    num_squared = numbers_checker(my_num_int)
+    print(num_squared)
+else:
+    print("Your input is not a number,don't ruin my program")   
