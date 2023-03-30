@@ -55,3 +55,6 @@ if my_num.isdigit():
     print(num_squared)
 else:
     print("Your input is not a number,don't ruin my program")   
+
+
+# Error handling
