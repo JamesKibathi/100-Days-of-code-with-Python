@@ -22,3 +22,10 @@ while user_input!= "exit":
     user_input = input("Hey user,enter a number of days and I will convert it to hours!\n")
     for num_of_days in user_input.split(","):
         validate_and_execute()
+
+
+# List methods
+months=["Jan","Feb","April","May"]
+print(months[1])
+months.append("June")
+print(months)
