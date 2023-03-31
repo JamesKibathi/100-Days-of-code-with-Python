@@ -25,3 +25,13 @@ print(my_set)
 for num_of_days in my_set:
      validate_and_execute()  
 
+# Basic set operations
+months={"Jan","Feb","March"}
+#NB:Cannot access individual element using index - can only access in a loop
+for element in months:
+    print(element)
+
+months.add("April")
+print(months)  # Not displayed in any particular order
+months.remove("Jan")
+print(months)
