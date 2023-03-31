@@ -26,6 +26,6 @@ while user_input!= "exit":
 
 # List methods
 months=["Jan","Feb","April","May"]
-print(months[1])
+print(months[1]) 
 months.append("June")
 print(months)
