@@ -10,3 +10,6 @@ class Student:
 
 student1 = Student("James", "Njenga", "fake@email.com","Software Engineering")       
 student1.display_credentials()
+
+student2 = Student("Christine","Nyash","chris@email.com","Data Science")
+student2.display_credentials()
