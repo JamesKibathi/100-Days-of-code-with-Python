@@ -13,3 +13,6 @@ student1.display_credentials()
 
 student2 = Student("Christine","Nyash","chris@email.com","Data Science")
 student2.display_credentials()
+
+student3 = Student("Joy","Jolee","jolee@email.com","Machine Learning Engineer")
+
