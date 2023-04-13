@@ -20,3 +20,8 @@ print(fruits.count("apple"))  #Output: 1
 
 # Get the index of the first occurrence of a value in a tuple
 print(fruits.index("banana")) #Output: 1
+
+# Concatenate two tuples
+fruits2 =("orange","grape")
+fruits += fruits2
+print(fruits)  # Output: ("apple", "banana", "cherry", "orange", "grape")
