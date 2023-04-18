@@ -1,4 +1,4 @@
-def prime(param):
+def prime_check(param):
     for i in range(2,param):
         if((param%i)==0):
             print(param,"is not prime number")
@@ -6,9 +6,9 @@ def prime(param):
     else:
         print(param,"is a prime number") 
             
-num =int(print("Please enter the number:")) 
+num=int(input("Please enter the number:\n")) 
 
 if num > 1:
-    prime(num)
+    prime_check(num)
 else:
-    print("Enter a valid number")    
+    print("Enter a valid number!")    
